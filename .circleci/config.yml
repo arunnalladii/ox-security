@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Run MegaLinter
           command: |
-            npx mega-linter-runner --flavor salesforce -e "ENABLE=DOCKERFILE,MARKDOWN,YAML" -e "SHOW_ELAPSED_TIME=true" --platform -experimental: true
+            npx mega-linter-runner --flavor salesforce -e "ENABLE=DOCKERFILE,MARKDOWN,YAML" -e "SHOW_ELAPSED_TIME=true"
       #- persist_to_workspace:
       #    root: .
       #    paths:
