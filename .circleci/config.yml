@@ -37,7 +37,7 @@ jobs:
       #    paths:
       #      - mega-linter.log
       #      - megalinter-reports
-            
+    
   post:
    docker:
       - image: oxsecurity/megalinter:v6
